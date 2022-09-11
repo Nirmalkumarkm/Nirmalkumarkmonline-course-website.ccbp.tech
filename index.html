@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online courses website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Udemy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sectionhome">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectionlogin">Login, sign up</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                courses
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="Courses">
+                        <a class="dropdown-item" href="#sectionweb">web development</a>
+                        <a class="dropdown-item" href="#sectionpython">python</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#sectionjava">Java</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectiontestimonials">Reviews</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectionfaq">FAQ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectionfooter">Contact Us</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="front-page-top-container" id="sectionhome">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-3 pb-3">
+                    <img src="https://res.cloudinary.com/dxkk3lcxo/image/upload/v1662833347/pexels-keira-burton-6146978_xaf5gm.jpg" class="w-100" />
+                </div>
+            </div>
+        </div>
+
+        <div class="Signup-box" id="sectionlogin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 pt-3 pb-3">
+                        <h1>Sign up</h1>
+                        <h4>It's free and only takes a minute</h4>
+                        <form>
+                            <label>First Name</label>
+                            <input type="text" placeholder="">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="">
+                            <label>Email</label>
+                            <input type="email" placeholder="">
+                            <label>Password</label>
+                            <input type="password" placeholder="">
+                            <label>Confirm Password</label>
+                            <input type="Password" placeholder="">
+                            <input type="button" value="Submit">
+                        </form>
+                        <p>By clicking the sign up button,you agree to our <br>
+                            <a href="#">Terms and Condition</a> and <a href="login.html">Policy And Privacy</a></p>
+
+                        <p class="para-2">Already have an account? <a href="login.html">Login here</a></p>
+                    </div>
+                    <div class="col-6 pt-3 pb-3">
+                        <img src="https://res.cloudinary.com/dxkk3lcxo/image/upload/v1662888962/pexels-liza-summer-6347901_1_hj0xed.jpg" class="w-100" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="home-page-bg-container pt-3 pb-3" id="sectionabout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mt-3">
+                        <h1 class="home-heading1">Learn courses online</h1>
+                        <p class="home-paragraph1">Read the course you needed with world class teaching professionals.</p>
+                        <button class="button1 btn btn-danger">Get started</button>
+                    </div>
+                    <div class="col-12 col-md-6 pt-3">
+                        <img src="https://www.carltontrailcollege.com/explore/online-courses/online-courses.jpg" class="image1 w-100" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="web-bg-container" id="sectionweb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-3 pt-3">
+                        <h1>Featured Courses</h1>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://1.bp.blogspot.com/-FJOQMYvKB5w/Wg07fPCy9EI/AAAAAAAAATo/CGLCmxYLdKAzUjJqqwmnF3H2Hwqa0l8_gCLcBGAs/s1600/Complete%2Bweb%2Bdevelopment%2Bbootcamp.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">The complete 2022 Web Development Bootcamp</h1>
+                                <p class="card-paragraph">Dr.caterine</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(230k)</span>
+                        </i>
+                                <p class="card-rate">₹529 <span class="text">₹800</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="card-container pt-2 pb-2">
+                            <img src="https://udemycourses.org/wp-content/uploads/2022/03/the-ultimate-2022-fullstack-web-development-bootcamp_622a439ce9ab5.jpeg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">The Ultimate 2022 Fullstack Bootcamp</h1>
+                                <p class="card-paragraph">Kane ezki,Andrea</p>
+                                <span class="star-rating">4.0</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(100k)</span>
+                        </i>
+                                <p class="card-rate">₹500 <span class="text">₹650</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://wallpapercave.com/wp/wp6784617.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">The Web Developer Bootcamp 2022</h1>
+                                <p class="card-paragraph">Colt steele</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(400k)</span>
+                        </i>
+                                <p class="card-rate">₹529 <span class="text">₹900</span> </p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://wallpaperaccess.com/full/2109974.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Ultimate Web Designer & Web Developer Course</h1>
+                                <p class="card-paragraph">Brad Hussey</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(600k)</span>
+                        </i>
+                                <p class="card-rate">₹620 <span class="text">₹1100</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="python-bg-container" id="sectionpython">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-3 pt-3">
+                        <h1>Python courses</h1>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://sanet.pics/storage-1/1215/2YHfqkrmy6grVVZ4mKQ5PGHzbcJZ5Fy7.jpeg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Python for Absolute Beginners</h1>
+                                <p class="card-paragraph">Green Chamelon Learning</p>
+                                <span class="star-rating">3.0</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(170k)</span>
+                        </i>
+                                <p class="card-rate">₹560 <span class="text">₹750</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://1.bp.blogspot.com/-MrjyayV2cbE/Xe4GVK-8XXI/AAAAAAAAWMg/yD5HpJOVnhg3gAn3b9hBWMSxDgd2NcVlQCLcBGAsYHQ/s1600/Python%2BBootcamp%2B2020%2BBuild%2B15%2Bworking%2BApplications%2Band%2BGames%2B1.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Python for Full Stack Web Developer Bootcamp</h1>
+                                <p class="card-paragraph">Jose Portilla</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(500k)</span>
+                        </i>
+                                <p class="card-rate">₹620 <span class="text">₹900</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://i.ytimg.com/vi/DqJlgy8LvY4/maxresdefault_live.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Python Bootcamp From Zero to Hero in Python</h1>
+                                <p class="card-paragraph">Colt steele</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(220k)</span>
+                        </i>
+                                <p class="card-rate">₹650 <span class="text">₹870</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://www.mzmzmmz.com/wp-content/uploads/2022/07/1658961186_maxresdefault.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">100 Days of Code:The Complete Python Pro Bootcamp 2022</h1>
+                                <p class="card-paragraph">Dr.Angela Yu</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(350k)</span>
+                        </i>
+                                <p class="card-rate">₹750 <span class="text">₹1200</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                        <div class="pt-3 pb-3">
+                            <button class="button-2"> <a href="python.html">View All Courses</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Java-bg-container" id="sectionjava">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-3 pt-3">
+                        <h1>Java courses</h1>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://wallpapercave.com/wp/wp4048628.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Java Programming for Complete Beginners</h1>
+                                <p class="card-paragraph">in28Minutes Official</p>
+                                <span class="star-rating">4.0</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(150k)</span>
+                        </i>
+                                <p class="card-rate">₹450 <span class="text">₹650</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://topofminds.com/en/wp-content/uploads/sites/2/2020/01/Working-at-Relay42-as-Senior-Java-Engineer.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Java In-Depth:Became a complete Java Engineer!</h1>
+                                <p class="card-paragraph">Dheeru Mundluru</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(300k)</span>
+                        </i>
+                                <p class="card-rate">₹ 610 <span class="text">₹ 880</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container pt-2 pb-2">
+                            <img src="https://thumbs.dreamstime.com/z/portrait-his-nice-attractive-focused-brunette-guy-creating-script-coding-java-html-mysql-database-using-languages-software-161965647.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Professional Java Developer Career Starter:Java Foundations</h1>
+                                <p class="card-paragraph">Terry Martin</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(400k)</span>
+                        </i>
+                                <p class="card-rate">₹670 <span class="text">₹970</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container  pt-2 pb-2">
+                            <img src="https://miro.medium.com/max/1400/0*trBknsjJ_L8-4vHu.jpg" class="w-100" />
+                            <div class="p-2">
+                                <h1 class="card-heading">Java Programming Masterclass covering Java 11 & Java 17</h1>
+                                <p class="card-paragraph">Tim Buchalka,Tim Buchalka's Learn Programming...</p>
+                                <span class="star-rating">4.8</span> <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                        </i>
+                                <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewbox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg><span>(270k)</span>
+                        </i>
+                                <p class="card-rate">₹529 <span class="text">₹850</span></p>
+                                <button class="button-2">Bestseller</button>
+                            </div>
+                        </div>
+                        <div class="pt-3 pb-3">
+                            <button class="button-2"> <a href="java.html">View All Courses</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials-section-bg-container pt-5 pb-5" id="sectiontestimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="testimonial-heading">Testimonials</h1>
+                        <h1 class="testimonial-heading-2 mb-3">Students says</h1>
+                        <div class="carousal-card mr-3 ml-3 p-3">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active text-center">
+                                        <img src="https://res.cloudinary.com/dxkk3lcxo/image/upload/v1662835220/pexels-mikhail-nilov-7776792_1_tjtp0q.jpg" class="carousal-image w-50" alt="...">
+                                        <p class="testimonial-para ">I love the way this course has been made so interactive. So much to learn and practice. I know this is not over ,rather just a begining in the learning path of python.
+                                        </p>
+                                        <p class="testimonial-para-2">-John</p>
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <img src="https://res.cloudinary.com/dxkk3lcxo/image/upload/v1662835314/pexels-rodnae-productions-6517120_r7atng.jpg" class="carousal-image w-50" alt="...">
+                                        <p class="testimonial-para">It was a fantastic experience overall.It was my first lesson on my computer language,i enjoyed it. But one thing i want to mention here that the first milestone project was a huge jump for a beginner like me.
+                                        </p>
+                                        <p class="testimonial-para-2">-Chris</p>
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <img src="https://res.cloudinary.com/dxkk3lcxo/image/upload/v1662835393/pexels-rodnae-productions-6517080_gmv6p1.jpg" class="carousal-image w-50" alt="...">
+                                        <p class="testimonial-para">From very basics to advance topics are covered.It's really good to go course.</p>
+                                        <p class="testimonial-para-2">-Alexa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-3 text-right">
+                            <a href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-bg-color-1 pt-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="about-heading1">We just Keep growing</h1>
+                    </div>
+                    <div class="col-12">
+                        <p class="about-p1">our global community and our course catalog get bigger everyday.Check out our latest numbers as of june 2022.</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h1 class="about-heading1">800k+</h1>
+                        <p class="about-p1">learners</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h1 class="about-heading1">40k+</h1>
+                        <p class="about-p1">Instructors</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h1 class="about-heading1">200+</h1>
+                        <p class="about-p1">Courses</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h1 class="about-heading1">10M+</h1>
+                        <p class="about-p1">Course enrollments</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h1 class="about-heading1">50+</h1>
+                        <p class="about-p1">Languages</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h1 class="about-heading1">100+</h1>
+                        <p class="about-p1">skilled Instructions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <main>
+            <h1>Frequently Asked Questions</h1>
+
+            <div class="faq open" id="sectionfaq">
+                <!--FAQ 1-->
+                <div class="faq_text">
+                    <h2>How can I pay for essential or premium plan?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                </div>
+                <span class="button-h">&#8722;</span>
+            </div>
+            <!--FAQ 1 End-->
+
+
+            <div class="faq">
+                <!--FAQ 2-->
+                <div class="faq_text">
+                    <h2>Can I cancel my Essentials or Premium plan subscription at any time?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                </div>
+                <span class="button-h">&#43;</span>
+            </div>
+            <!--FAQ 2 End-->
+
+            <div class="faq">
+                <!--FAQ 3-->
+                <div class="faq_text">
+                    <h2>We need to add new users to our team. How will that be billed?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                </div>
+                <span class="button-h">&#43;</span>
+            </div>
+            <!--FAQ 3 End-->
+
+            <div class="faq">
+                <!--FAQ 4-->
+                <div class="faq_text">
+                    <h2>My team wants to cancel its subscription. How do we do that? Can we get a refund?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                </div>
+                <span class="button-h">&#43;</span>
+            </div>
+            <!--FAQ 4 End-->
+
+            <div class="faq">
+                <!--FAQ 5-->
+                <div class="faq_text">
+                    <h2>Do you offer discounts for non-profit organisations or educational institutions?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                </div>
+                <span class="button-h">&#43;</span>
+            </div>
+            <!--FAQ 5 End-->
+
+        </main>
+
+
+        <div class="footer_bg_container pt-5 pb-5" id="sectionfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="text-center text-md-left">
+                            <img src="https://avatars.githubusercontent.com/u/1714691?s=280&v=4" class="image-9" />
+                            <div class="d-flex flex-row justify-content-center justify-content-md-start mt-3 mb-3">
+                                <div class="icon-container-9">
+                                    <i class="fab fa-google icon-9"></i>
+                                </div>
+                                <div class="icon-container-9">
+                                    <i class="fab fa-twitter icon-9"></i>
+                                </div>
+                                <div class="icon-container-9">
+                                    <i class="fab fa-instagram icon-9"></i>
+                                </div>
+                                <div class="icon-container-9">
+                                    <i class="fab fa-linkedin icon-9"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <h1 class="section-heading-9">Search to know about</h1>
+                        <ul class="section-list-9">
+                            <li class="section-list-item-9">About courses</li>
+                            <li class="section-list-item-9">career</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <h1 class="section-heading-9">Contact with Course teams</h1>
+                        <ul class="section-list-9">
+                            <li class="section-list-item-9">Facebook</li>
+                            <li class="section-list-item-9">Twitter</li>
+                            <li class="section-list-item-9">Instagram</li>
+                            <li class="section-list-item-9">linkedin</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="hr-line-9" />
+                <div class="text-center">
+                    <i class="fa fa-copyright icon-9" aria-hidden="true"></i>
+                    <span class="span-h-9">2022 by Nirmal</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="login.html"></script>
+    <script src="python.html"></script>
+    <script src="java.html"></script>
+</body>
+
+</html>
